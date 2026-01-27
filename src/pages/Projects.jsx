@@ -3,14 +3,14 @@ import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
-//   {
-//     title: '🩺 Mammogram Malignancy Detector',
-//     desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
-//     ss: '/mamo.png',
-//     tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
-//     live: '#',
-//     code: 'https://github.com/kunjdesai/mammo-detector'
-//   },
+  {
+    title: '📰 Fake News Detection system',
+    desc: 'A Fake News Detection system built using NLP and Machine Learning. It uses TF-IDF and Logistic Regression to classify news as Fake or Real.',
+    ss: '/Fake_News_Detection.png',
+    tech: ['Python', 'NLP (NLTK)', 'Logistic Regression', 'Streamlit','Render'],
+    live: 'https://fake-news-detection-h2ds.onrender.com/',
+    code: 'https://github.com/Onkar4160/fake-news-detection'
+  },
 ]
 
 export default function Projects() {
