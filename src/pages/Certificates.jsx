@@ -5,6 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
+      title: "Machine Learning Specialization",
+      org: "DeepLearning.AI, Stanford University",
+      date: "Feb 2026",
+      img: "/certificates/ML_Specialization.jpeg",
+      link: "https://www.coursera.org/account/accomplishments/specialization/OK4YQOR2YQ9X",
+    },
+    {
       title: "Building Modern Web Applications with hashtag MERN_Stack",
       org: "EYGDS",
       date: "Mar 2025",

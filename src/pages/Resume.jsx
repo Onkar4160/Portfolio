@@ -110,7 +110,7 @@ export default function Resume() {
             <li>
               <strong>BE in Computer Engineering</strong> — KJCOEMR
               (Savitribai Phule Pune University), 2022–2026 <br />
-              <span style={{ color: "#aaa" }}>GPA: 8.26</span>
+              <span style={{ color: "#aaa" }}>GPA: 8.90</span>
             </li>
             <li style={{ marginTop: 8 }}>
               <strong>12th Board — Vivekanand College Kolhapur</strong> (Maharashtra
@@ -134,9 +134,10 @@ export default function Resume() {
         >
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
-            <li>1️⃣ Mood based song recomendation</li>
-            <li>2️⃣ Platform for redistribution of surplus food and waste reduction</li>
-            <li>3️⃣ Attendence Email Sender</li>
+            <li>1️⃣ Fake News Detection system</li>
+            <li>2️⃣ Mood based song recomendation</li>
+            <li>3️⃣ Platform for redistribution of surplus food and waste reduction</li>
+            <li>4️⃣ Attendence Email Sender</li>
             <li>4️⃣ Snake game</li>
           </ul>
         </motion.div>

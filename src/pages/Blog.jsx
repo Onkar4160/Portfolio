@@ -20,7 +20,7 @@ export default function Blog() {
     const votedByUser = JSON.parse(localStorage.getItem("kd_blog_voted") || "{}");
     const withVotes = defaultPosts.map((p) => ({
       ...p,
-      agree: savedVotes[p.id]?.agree || 0,
+      agree: savedVotes[p.id]?.agree || 11,
       disagree: savedVotes[p.id]?.disagree || 0,
       userVote: votedByUser[p.id] || null,
     }));
