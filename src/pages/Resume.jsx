@@ -238,7 +238,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/resume.pdf"
+            src="resume.pdf"
             title="Onkar Sarambale Resume"
             style={{
               width: "100%",
