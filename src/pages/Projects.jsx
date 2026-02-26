@@ -11,6 +11,15 @@ const PROJECTS = [
     live: 'https://fake-news-detection-h2ds.onrender.com/',
     code: 'https://github.com/Onkar4160/fake-news-detection'
   },
+  {
+    title: '📰 aura-habit-tracker ',
+    desc: 'Developed a data-driven MERN Habit Tracker featuring secure authentication, streak automation, and behavioral analytics with dynamic visual insights.',
+    ss: '/aura-habit-tracker1.png',
+    ss: '/aura-habit-tracker2.png',
+    tech: ['React', 'Node.js', 'Express.js','MongoDB', 'Recharts','JWT','Vercel'],
+    live: 'https://aura-habit-tracker.vercel.app/',
+    code: 'https://github.com/Onkar4160/aura-habit-tracker'
+  },
 ]
 
 export default function Projects() {
