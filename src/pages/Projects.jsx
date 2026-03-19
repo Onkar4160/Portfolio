@@ -4,6 +4,14 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
+    title: '⚖️ Indian Legal Document Classifier',
+    desc: 'AI-powered app that classifies Indian legal documents into Property Deed, Court Order, Rental Agreement, and Legal Notice using fine-tuned BERT model with 92% accuracy. Built with PyTorch, Flask, React.js, and deployed on Hugging Face Spaces.',
+    ss: '/legal_document_classifier.png',
+    tech: ['Python', 'PyTorch', 'Hugging Face Transformers', 'BERT', 'Flask', 'React.js', 'Gradio', 'NLP', 'Document Classification'],
+    live: 'https://huggingface.co/spaces/onkarsarambale11/legal-doc-classifier',
+    code: 'https://github.com/Onkar4160/legal-doc-classifier'
+  },
+  {
     title: '📰 Fake News Detection system',
     desc: 'A Fake News Detection system built using NLP and Machine Learning. It uses TF-IDF and Logistic Regression to classify news as Fake or Real.',
     ss: '/Fake_News_Detection.png',
@@ -12,7 +20,7 @@ const PROJECTS = [
     code: 'https://github.com/Onkar4160/fake-news-detection'
   },
   {
-    title: '📰 aura-habit-tracker ',
+    title: '📊 aura-habit-tracker ',
     desc: 'Developed a data-driven MERN Habit Tracker featuring secure authentication, streak automation, and behavioral analytics with dynamic visual insights.',
     ss: '/aura-habit-tracker1.png',
     ss: '/aura-habit-tracker2.png',
