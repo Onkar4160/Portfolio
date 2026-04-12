@@ -4,6 +4,13 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
+    title: '🩺 NL2SQL Clinic Chatbot',
+    desc: 'Built an AI-powered NL2SQL chatbot that converts plain English questions into validated SQL queries using Vanna AI 2.0 and Google Gemini, served via a FastAPI REST API with real-time clinic database querying.',
+    ss: '/NL2SQL Clinic Chatbot.png',
+    tech: ['Python','Vanna AI 2.0', 'FastAPI', 'Google Gemini (gemini-2.5-flash)', 'SQLite', 'Pydantic'],
+    code: 'https://github.com/Onkar4160/NL2SQL-Clinic_Chatbot'
+  },
+  {
     title: '⚖️ Indian Legal Document Classifier',
     desc: 'AI-powered app that classifies Indian legal documents into Property Deed, Court Order, Rental Agreement, and Legal Notice using fine-tuned BERT model with 92% accuracy. Built with PyTorch, Flask, React.js, and deployed on Hugging Face Spaces.',
     ss: '/legal_document_classifier.png',
