@@ -10,7 +10,7 @@ import Resume from './pages/Resume'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
-import SkillNetwork from './pages/Skills'  
+import SkillNetwork from './pages/Skills'
 
 export default function App() {
   return (
